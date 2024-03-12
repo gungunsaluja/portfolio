@@ -2,7 +2,7 @@
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: "Be Vietnam Pro",sans-serif;
     scroll-behavior: smooth;
 }
@@ -41,7 +41,7 @@
     padding:0 4em;
 }
 .logo-text{
-    margin-left:-1.2rem;
+    margin-left:0.07rem;
     font-size:28px;
 }
 .nav-items div{
@@ -527,7 +527,7 @@ a{
     margin:10rem auto;
     gap:30px;
 }
-.skills-conatiner-left{
+.skill-container-left{
     width:50%;
     display:flex;
     flex-direction: column;
@@ -561,10 +561,10 @@ a{
 
 
 }
-@keyframes blobAnimation{
+@keyframes blobAnimation{ 
     50%{
         top:54%;
-        left:56%;
+        left:46%;
     }
 
 }
@@ -587,7 +587,7 @@ a{
     font-size: 90px;
 
 }
-.skill-subHeading{
+.skill-subHeading{ 
     margin-top: 1rem;
 
     width:85%;
@@ -599,7 +599,7 @@ a{
 }
 .contactus-form-container{
     width:100%;
-    background-color: rgb(231,231,231);
+    background-color: rgba(231,231,231);
      
     
 
