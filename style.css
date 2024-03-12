@@ -436,32 +436,29 @@ a{
 
 }
 .project-card:hover .project-content{
-    transform: scale(1.1);
+    transform:scale(1.1);
 
 }
 #project1{
-    background-image: url(Project1.png)
-
-    
-
+    background-image: url(rain-756647.jpg);
 }
 
 #project2{
-    background-image: url(Project2.png);
+    background-image: url(polygons-6956577.jpg);
     margin-left:120px;
 
 }
 #project3{
-    background-image: url(Project3.png);
-    margin-left:120px;
+    background-image: url(call-1866884.jpg);
+    /* margin-left:120px; */
 
 }
 #project4{
-    background-image: url(Project4.png);
+    background-image: url(credit-card-1730085.jpg);
     margin-left:120px;
 
 }
-/* @media(max-width:1300px){
+@media(max-width:1300px){
     .page-header{
         padding-top:30px;
         color:var(--bgOrange);
@@ -508,10 +505,10 @@ a{
         margin-left:0;
         
     }
-    .project-skill-container{
+    .project-skills-container{
         width:100%;
     }
-    .project-skill{
+    .project-skills{
         width:35px;
     }
 
@@ -522,7 +519,7 @@ a{
         scale:0.55;
 
     }
-} */
+}
 .skills-conatiner{
     position:relative;
     display: flex;
